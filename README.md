@@ -32,7 +32,7 @@ The dataset includes various attributes such as client age, job type, marital st
 
 Below is a plot showing the actual vs. predicted values for the bank balance predictions from our model:
 
-![Actual vs. Predicted Values](images/actual_vs_predicted_values.png)
+![Actual vs. Predicted Values](Images/actual_vs_predicted_values.png)
 
 
 ## Prerequisites
