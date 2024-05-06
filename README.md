@@ -26,6 +26,15 @@ The dataset includes various attributes such as client age, job type, marital st
 - **Visual Summary**: Creating visualizations like histograms and bar charts using `ggplot2` to display data distributions and model results.
 - **Proportion Charts**: Visualizing the proportions of term deposit subscriptions among different demographic groups.
 
+## Analysis Results
+
+### Predictive Modeling Results
+
+Below is a plot showing the actual vs. predicted values for the bank balance predictions from our model:
+
+![Actual vs. Predicted Values](images/actual_vs_predicted_values.png)
+
+
 ## Prerequisites
 install.packages("pacman")
 pacman::p_load(readxl, rio, tidyverse, ggplot2, dplyr, caret, rpart, rpart.plot, randomForest)
