@@ -34,6 +34,29 @@ Below is a plot showing the actual vs. predicted values for the bank balance pre
 
 ![Actual vs. Predicted Values](Images/actual_vs_predicted_values.png)
 
+## Model Insights
+
+### Random Forest Model Variable Importance
+
+The following plots show the importance of various features in the random forest model used to predict term deposit subscriptions. The importance is measured in two ways: Mean Decrease in Accuracy and Mean Decrease Gini.
+
+![Random Forest Model Variable Importance](Images/rf_model_variable_importance.png)
+
+## Decision Tree Analysis
+
+### Decision Tree Model Visualization
+
+The decision tree below illustrates the splitting rules based on various features like `duration`, `month`, and `previous` to predict the likelihood of a client subscribing to a term deposit. The tree nodes display the outcome distribution among the classes, providing insights into the decision-making process at each step.
+
+![Decision Tree Model Visualization](Images/decision_tree_model.png)
+
+## Model Evaluation
+
+### Sensitivity and Specificity Analysis
+
+The plot below shows how sensitivity and specificity vary with different cutoff points in our predictive model. Sensitivity (true positive rate) and specificity (true negative rate) are critical metrics for assessing the accuracy of a binary classifier at various threshold settings, which helps in choosing an optimal cutoff value for decision-making.
+
+![Sensitivity and Specificity Plot](Images/sensitivity_specificity_plot.png)
 
 ## Prerequisites
 install.packages("pacman")
